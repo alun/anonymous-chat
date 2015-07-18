@@ -1,4 +1,4 @@
-# anonymous-chat
+# private-chat
 Trivial anonymous chat based on peer.js P2P library
 
 ## How does it work
