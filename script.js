@@ -22,7 +22,8 @@ function printEOL() {
 function myPeerLink() {
   var href = location.href,
     suff = href.indexOf('?') == -1 ? '?' : '&';
-    link = [href, suff, 'peer=', peer.id].join('');
+    pureHref = href.replace(/peer=[a-z0-9]+&?/, ''),
+    link = [pureHref, suff, 'peer=', peer.id].join('');
   return ['<a href="', link, '">', link, '</a>'].join('');
 }
 
