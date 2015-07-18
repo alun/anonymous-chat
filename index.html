@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://katlex.com/peer.js"></script>
+  </head>
+
+  <body>
+    <form name="ui"
+    onsubmit="katlex.chat.submit(event)">
+    <label>peer</label>  
+    <input name="peer"
+      placeholder="peer"/>
+    <label>message</label>  
+    <input name="message"
+      placeholder="message"/>
+    <input type="submit"/>
+    </form>
+    <div id="stdout"></div>
+    <script src="script.js"></script>
+  </body>
+
+</html>
