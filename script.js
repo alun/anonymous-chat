@@ -20,10 +20,9 @@ function printEOL() {
 }
 
 function myPeerLink() {
-  var href = location.href,
-    suff = href.indexOf('?') == -1 ? '?' : '&';
-    pureHref = href.replace(/peer=[a-z0-9]+&?/, ''),
-    link = [pureHref, suff, 'peer=', peer.id].join('');
+  var href = location.href.replace(/peer=[a-z0-9]+&?/, ''),
+    suff = (href.indexOf('?') == href.length - 1) ? '' : href.indexOf('?') == -1 ? '?' : '&';
+    link = [href, suff, 'peer=', peer.id].join('');
   return ['<a href="', link, '">', link, '</a>'].join('');
 }
 
