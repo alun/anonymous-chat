@@ -3,7 +3,7 @@
 var katlex = (function () {
 
 var ui = document.forms.ui,
-  peer = new Peer({key: 'lwjd5qra8257b9'}),
+  peer = new Peer({key: '7aifg05fdj6pqfr'}),
   conns = {},
   stdout = document.getElementById('stdout');
   
