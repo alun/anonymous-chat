@@ -13,3 +13,6 @@ messages are sent right from one browser to another.
 
 ### History
 History is only saved until page is closed.
+
+### Security
+It's based on WebRTC which is encrypted by default using DTLS. The encryption heapped between two peers. So there is no man in a middle, which is pretty secure.
