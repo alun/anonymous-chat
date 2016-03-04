@@ -8,8 +8,8 @@ First who opens the link will be connected to you via P2P and send initial `hey,
 which allows you to get his one time id and connect your messages to it.
 
 ### P2P
-This means server will only be involved in intial id to ip adress mapping, other then that 
-messages are sent right from one browser to another.
+This means server will only be involved in intial id to ip adress mapping,  
+messages themselves are sent right from one browser to another without the server in between.
 
 ### History
 History is only saved until page is closed.
