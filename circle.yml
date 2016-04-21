@@ -1,0 +1,11 @@
+general:
+  branches:
+    ignore:
+       - gh-pages
+
+deployment:
+  publish:
+    branch: master
+    commands:
+      - lein --version
+      - lein github-cdn
