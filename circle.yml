@@ -1,3 +1,5 @@
+image: java:8-jre-alpine
+
 general:
   branches:
     ignore:
