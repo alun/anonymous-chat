@@ -3,7 +3,7 @@
 var katlex = (function () {
 
 var ui = document.forms.ui,
-  peer = new Peer({host: 'dev.katlex.com',
+  peer = new Peer({host: 'peerjs.katlex.com',
   port: 9000}),
 
   conns = {},
