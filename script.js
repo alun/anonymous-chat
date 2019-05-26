@@ -3,9 +3,7 @@
 var katlex = (function () {
 
 var ui = document.forms.ui,
-  peer = new Peer({host: 'peerjs.katlex.com',
-  port: 9000}),
-
+  peer = new Peer({host: 'peerjs.katlex.com', port: 443, secure:true}),
   conns = {},
   stdout = document.getElementById('stdout');
   
