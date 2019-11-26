@@ -1,5 +1,5 @@
 # private-chat
-Trivial anonymous chat based on peer.js P2P library
+P2P anonymous chat based on peer.js P2P library in just less than 100 lines of JS code.
 
 ## How does it work
 After you open [the site](http://alun.github.io/private-chat/)
